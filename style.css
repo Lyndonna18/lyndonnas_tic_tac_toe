@@ -1,14 +1,15 @@
-
-
 footer {
     color: rgb(138, 58, 2);
 }
 
-h1{
-    color: rgb(138, 58, 2);
+h1,
+p {
+    color: #f8c304f2;
     font-size: 40px;
     text-align: center;
+    margin-top: auto;
 }
+
 div {
     font-size: 3em;
     text-align: center;
@@ -25,23 +26,58 @@ div div {
     justify-content: center;
 }
 
-body {
-    /* text-align: center; */
+.box {
+    color: brown
 }
 
-.box{
-    color:brown
-}
-
-h4, button,{
+button {
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #f8c304f2;
+    font-size: 25px;
+    border-radius: 20px;
+    color: brown;
+    border: 1px solid #f8c304f2;
+    box-shadow: 0 5px #999;
 }
 
-.hide{
+button:hover {
+    background-color: #8e7f3e;
+}
+
+button:active {
+    background-color: #8e7f3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.hide {
     display: none;
 }
+
 .footer {
     justify-content: center;
     text-align: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+#playerOneTitle {
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+#playerTwoTitle {
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+td{
+    font-size: 55px;
 }
