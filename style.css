@@ -1,0 +1,47 @@
+
+
+footer {
+    color: rgb(138, 58, 2);
+}
+
+h1{
+    color: rgb(138, 58, 2);
+    font-size: 40px;
+    text-align: center;
+}
+div {
+    font-size: 3em;
+    text-align: center;
+}
+
+div div {
+    border: 3px solid rgb(138, 58, 2);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+}
+
+body {
+    /* text-align: center; */
+}
+
+.box{
+    color:brown
+}
+
+h4, button,{
+    justify-content: center;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+.footer {
+    justify-content: center;
+    text-align: center;
+}
