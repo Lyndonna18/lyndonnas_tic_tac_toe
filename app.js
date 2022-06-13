@@ -147,6 +147,7 @@ const resetButtonFunc = () => {
     square7.innerText = " "
     square8.innerText = " "
     square9.innerText = " "
+    location.reload()
 }
 
 resetButton.addEventListener('click', resetButtonFunc)
